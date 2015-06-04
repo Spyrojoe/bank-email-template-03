@@ -58,7 +58,7 @@ p.center{
 	padding: 0;
 }
 .unsubscribe p{
-	font-size: 12px;
+	font-size: 11px;
 	text-align: center;
 }
 .footer{
@@ -74,8 +74,33 @@ p.center{
 		width: 50%;
 	}
 }
-
-
+@media only screen and (max-width: 500px){
+	.show500{
+		display: block !important;
+	}
+	.hide500{
+		display: none;
+	}
+}
+@media only screen and (max-width: 400px){
+	.hide400{
+		display: none;
+	}
+}
+@media only screen and (max-width: 375px){
+	.block375{
+		display: block;
+	}
+	br.show500:last-of-type{
+		display: none !important;
+	}
+	.hide375{
+		display: none !important;
+	}
+	td.social{
+		display: none !important;
+	}
+}
 
 
 
