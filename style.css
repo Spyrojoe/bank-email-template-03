@@ -1,5 +1,5 @@
-body{
-	padding-top: 2%;
+table.header.row{
+	padding-top: 14px;
 }
 ul{
 	list-style: none;
@@ -7,9 +7,9 @@ ul{
 }
 img{
 	width: 100%;
+	float: none;
 }
 .wrapper{
-	outline: 1px red dashed;
 	vertical-align: middle;
 }
 .logo{
@@ -23,6 +23,7 @@ img{
 }
 .social a{
 	display: inline-block;
+	width: 30px;
 }
 .marquee .columns td{
 	padding: 0;
@@ -34,11 +35,14 @@ img{
 	padding-top: 0;
 	padding-bottom: 0;
 }
+.main li{
+	padding-bottom: 8px;
+}
 p.center{
 	text-align: center;
 }
 .headline .wrapper{
-	padding: 10px 0;
+	padding: 30px 0 10px;
 }
 .headline .wrapper td{
 	padding: 0;
