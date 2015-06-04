@@ -1,0 +1,83 @@
+body{
+	padding-top: 2%;
+}
+ul{
+	list-style: none;
+	padding: 0;
+}
+img{
+	width: 100%;
+}
+.wrapper{
+	outline: 1px red dashed;
+	vertical-align: middle;
+}
+.logo{
+	width: auto;
+}
+.social.sub{
+	width: 25%;
+}
+.social{
+	text-align: right;
+}
+.social a{
+	display: inline-block;
+}
+.marquee .columns td{
+	padding: 0;
+}
+.headline p{
+	text-align: center;
+}
+.main .wrapper{
+	padding-top: 0;
+	padding-bottom: 0;
+}
+p.center{
+	text-align: center;
+}
+.headline .wrapper{
+	padding: 10px 0;
+}
+.headline .wrapper td{
+	padding: 0;
+}
+.headline p{
+	margin: 0 auto;
+	font-size: 20px;
+	color: darkblue;
+}
+
+.main .columns td,
+.main .column td{
+	padding: 0;
+}
+.unsubscribe p{
+	font-size: 12px;
+	text-align: center;
+}
+.footer{
+	background: #b2b4b6;
+}
+.footer p{
+	margin-bottom: 0;
+	color: #ffffff;
+}
+@media only screen and (max-width: 600px) {
+	table[class="body"] .header .wrapper{
+		display: inline-block !important;
+		width: 50%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
